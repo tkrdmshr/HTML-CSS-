@@ -91,3 +91,36 @@ $( document ).ready(function() {
 </script>
 </body>
 </html>
+header{
+  background-color: #fff;
+  border-top: 50px #444 solid;
+  border-bottom: 1px #A6A6A6 solid;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+}
+div{
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header h1{
+   padding-top: 30px;
+   width: 260px;
+   float: left;
+}
+div:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+nav{
+  width: 640px;
+  float: right;
+}
+nav li{
+  list-style: none;
+  width: 160px
+nav :after{
+  display: block;
+  content: "";
+  clear: both;
+}
