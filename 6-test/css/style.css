@@ -13,3 +13,10 @@ h1, h2, h3, p, dl, dt, dd, ul{
 a{
 	color:#0275d8;
 }
+div:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+  
+
