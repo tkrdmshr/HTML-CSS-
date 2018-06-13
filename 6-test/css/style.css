@@ -106,12 +106,7 @@ aside {
   padding-left: 15px;
   box-sizing: border-box;
 }
-main:after{
-  display: block;
-  content: "";
-  clear: both;
-}
-aside:after{
+.container:after{
   display: block;
   content: "";
   clear: both;
