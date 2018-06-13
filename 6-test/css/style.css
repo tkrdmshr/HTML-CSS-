@@ -135,3 +135,16 @@ main p{
   margin-top: 1rem;
   line-height: 1.5;
 }
+.reason-3 dl{
+  margin-top: 1rem;
+  margin-right: 30px;
+  width: 203px;
+  float: left;
+  borde: 1px solid #146DA8;
+  padding-top: 159px;
+  background-color: #adc6d9;
+  background-image: url(../img/image_reason3-1.png);
+  background-repeat: no-repeat;
+  background-position: center 15px;
+}
+}
