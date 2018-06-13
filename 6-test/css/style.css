@@ -158,13 +158,13 @@ main p{
 }
 .reason-3 dt {
   background-color: #fff;
-  padding: 15px 15px 0px 15px;
+  padding: 15px 15px 0px;
   font-weight: bold;
   min-height: 5.5em;
 }
 .reason-3 dd {
   background-color: #fff;
-  padding: 0px 15px 15px 15px;
+  padding: 0px 15px 15px;
 }
 .reason-3 ul{
   list-style: none;
