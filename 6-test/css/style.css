@@ -156,3 +156,23 @@ main p{
   backgroung-position center 17px;
   margin-right: 0;
 }
+.reason-3 dt {
+  background-color: #fff;
+  padding: 15px 15px 0px 15px;
+  font-weight: bold;
+  min-height: 5.5em;
+}
+.reason-3 dd {
+  background-color: #fff;
+  padding: 0px 15px 15px 15px;
+}
+.reason-3 li {
+  margin-bottom: 0.5rem;
+  backgroundimage: url(../img/icn_list.png);
+  background-repeat: no-repeat;
+  background-position: left: 8px;
+  padding-left: 12px;
+}
+.reason-3 li:last-of-type{
+  margin-bottom: 0;
+}
