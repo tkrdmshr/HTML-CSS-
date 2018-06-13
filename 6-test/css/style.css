@@ -140,7 +140,7 @@ main p{
   margin-right: 30px;
   width: 203px;
   float: left;
-  borde: 1px solid #146DA8;
+  border: 1px solid #146DA8;
   padding-top: 159px;
   background-color: #adc6d9;
   background-image: url(../img/image_reason3-1.png);
@@ -165,6 +165,9 @@ main p{
 .reason-3 dd {
   background-color: #fff;
   padding: 0px 15px 15px 15px;
+}
+.reason-3 ul{
+  list-style: none;
 }
 .reason-3 li {
   margin-bottom: 0.5rem;
