@@ -111,3 +111,13 @@ aside {
   content: "";
   clear: both;
 }
+.main-image{
+  background-image: url(../img/main.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 350px;
+  text-align: center;
+}
+.main-image img{
+  padding-top:124px;
+}
