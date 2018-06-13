@@ -13,10 +13,62 @@ h1, h2, h3, p, dl, dt, dd, ul{
 a{
 	color:#0275d8;
 }
-div:after{
+header{
+  background-color: #fff;
+  border-top: 50px #444 solid;
+  border-bottom: 1px #A6A6A6 solid;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+}
+header div{
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+header h1{
+   padding-top: 30px;
+   width: 260px;
+   float: left;
+}
+nav{
+  width: 640px;
+  float: right;
+}
+header:after{
   display: block;
   content: "";
   clear: both;
 }
-  
+nav li{
+  list-style: none;
+  width: 160px;
+  float: left;
+}
+nav ul:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+nav li a{
+  line-height: 80px;
+  text-align: center;
+  color: #444;
+  text-decoration: none;
+  display: block;
+}
+nav .nav-contact {
+  float: none;
+  position: absolute;
+  top: -50px;
+  right: 0;
+}
 
+nav .nav-contact a {
+  background-color: #ffc424;
+  background-image: url(../image/icn_contact.png);
+  background-repeat: no-repeat;
+  background-position: 22px 15px;
+  line-height: 50px;
+  padding-left: 60px;
+  text-align: left;
+}
