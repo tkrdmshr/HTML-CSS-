@@ -55,6 +55,7 @@ nav li a{
   color: #444;
   text-decoration: none;
   display: block;
+  transition-duration: 0.5s;
 }
 nav .nav-contact {
   float: none;
@@ -71,4 +72,16 @@ nav .nav-contact a {
   line-height: 50px;
   padding-left: 60px;
   text-align: left;
+}
+nav li a:hover {
+  color: #000;
+  background-color:#eee;
+}
+nav li a:focus {
+  color: #000;
+  background-color:#eee;
+}
+nav li a:active {
+  color: #000;
+  background-color:#eee;
 }
