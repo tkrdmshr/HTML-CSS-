@@ -18,6 +18,7 @@ header{
   border-top: 50px #444 solid;
   border-bottom: 1px #A6A6A6 solid;
   box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+  position: relative;
 }
 header div{
   width: 960px;
