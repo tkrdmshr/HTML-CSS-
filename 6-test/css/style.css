@@ -95,10 +95,16 @@ nav li a:active {
 main {
   width: 75%;
   float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: 75%;
 }
 aside {
   width: 25%;
   float: right;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: 25%;
 }
 main:after{
   display: block;
