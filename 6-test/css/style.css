@@ -106,6 +106,7 @@ aside {
   padding-right: 15px;
   padding-left: 15px;
   box-sizing: border-box;
+  margin-top: 2rem;
 }
 .container:after{
   display: block;
@@ -178,4 +179,21 @@ main p{
 }
 .reason-3 li:last-of-type{
   margin-bottom: 0;
+}
+aside .oomori dl {
+  margin-top: 1rem;
+}
+aside dd {
+  font-size: 87.5%;
+}
+aside a:hover img,aside a:focus img, aside a:active img {
+  opacity: 0.7;
+}
+footer {
+  background-color: #444;
+}
+footer p {
+  padding: 2rem 0;
+  text-align: center;
+  color: #fff;
 }
