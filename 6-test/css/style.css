@@ -171,7 +171,7 @@ main p{
 }
 .reason-3 li {
   margin-bottom: 0.5rem;
-  backgroundimage: url(../img/icn_list.png);
+  background-image: url(../img/icn_list.png);
   background-repeat: no-repeat;
   background-position: left: 8px;
   padding-left: 12px;
