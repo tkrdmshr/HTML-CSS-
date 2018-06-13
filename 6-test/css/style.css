@@ -122,3 +122,16 @@ aside {
 .main-image img{
   padding-top:124px;
 }
+main h2{
+  margin-top: 2rem;
+  color: #0769af;
+  font-size: 30px;
+}
+main h3{
+  maigin-top: 1.5rem;
+  font-size: 24px;
+}
+main p{
+  margin-top: 1rem;
+  line-height: 1.5;
+}
