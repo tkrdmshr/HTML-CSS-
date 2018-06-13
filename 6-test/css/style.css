@@ -97,14 +97,14 @@ main {
   float: left;
   padding-right: 15px;
   padding-left: 15px;
-  box-sizing: 75%;
+  box-sizing: border-box;
 }
 aside {
   width: 25%;
   float: right;
   padding-right: 15px;
   padding-left: 15px;
-  box-sizing: 25%;
+  box-sizing: border-box;
 }
 main:after{
   display: block;
